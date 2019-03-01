@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Bitemark
 //
-//  Created by lion on 2/20/19.
-//  Copyright © 2019 lion. All rights reserved.
+//  Created by Dan on 2/20/19.
+//  Copyright © 2019 Bitemark. All rights reserved.
 //
 // 1. List items
 // 2. Add Button

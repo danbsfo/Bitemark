@@ -2,8 +2,8 @@
 //  AddViewController.swift
 //  Bitemark
 //
-//  Created by lion on 2/22/19.
-//  Copyright © 2019 lion. All rights reserved.
+//  Created by Dan on 2/22/19.
+//  Copyright © 2019 Bitemark. All rights reserved.
 //
 
 import UIKit
