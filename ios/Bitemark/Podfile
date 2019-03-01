@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+source 'https://github.com/cocoapods/specs.git'
+platform :ios, '12.1'
+
+use_frameworks!
+
+pod 'MBProgressHUD'
+pod 'AFNetworking'
+pod 'SwiftEntryKit'
+
+target 'Bitemark' do
+
+end
+
+

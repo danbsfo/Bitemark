@@ -1,0 +1,6 @@
+framework module Pods_Bitemark {
+  umbrella header "Pods-Bitemark-umbrella.h"
+
+  export *
+  module * { export * }
+}

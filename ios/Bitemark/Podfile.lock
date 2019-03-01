@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
+  - QuickLayout (2.0.2)
+  - SwiftEntryKit (0.6.0):
+    - QuickLayout (= 2.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MBProgressHUD
+  - SwiftEntryKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MBProgressHUD
+    - QuickLayout
+    - SwiftEntryKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  QuickLayout: a730730b646b231fd4ef7cffaeb1e81fe0e1ca92
+  SwiftEntryKit: ba070426598304c5773d84b54ed8b0763b5f2060
+
+PODFILE CHECKSUM: b8adadf552a3d5aa1278a55f9bd9d7f17924b5cd
+
+COCOAPODS: 1.5.2

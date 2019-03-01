@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7377C671E653C7A49256E6F2 /* Pods_Bitemark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED74DF21F2D44B9952DCBED /* Pods_Bitemark.framework */; };
+		B47C330622206C0B009B099C /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C330522206C0B009B099C /* BookmarkTableViewController.swift */; };
+		B47C330B2220C711009B099C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C330A2220C711009B099C /* AddViewController.swift */; };
+		B4ED5EB0221DCBB1009C4D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED5EAF221DCBB1009C4D13 /* AppDelegate.swift */; };
+		B4ED5EB2221DCBB1009C4D13 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED5EB1221DCBB1009C4D13 /* StartViewController.swift */; };
+		B4ED5EB8221DCBB1009C4D13 /* Bitemark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4ED5EB6221DCBB1009C4D13 /* Bitemark.xcdatamodeld */; };
+		B4ED5EBA221DCBB2009C4D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED5EB9221DCBB2009C4D13 /* Assets.xcassets */; };
+		B4ED5EBD221DCBB2009C4D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ED5EBB221DCBB2009C4D13 /* LaunchScreen.storyboard */; };
+		B4ED5EC8221DCBB2009C4D13 /* BitemarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED5EC7221DCBB2009C4D13 /* BitemarkTests.swift */; };
+		B4ED5ED3221DCBB2009C4D13 /* BitemarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED5ED2221DCBB2009C4D13 /* BitemarkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4ED5EC4221DCBB2009C4D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4ED5EA4221DCBB1009C4D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4ED5EAB221DCBB1009C4D13;
+			remoteInfo = Bitemark;
+		};
+		B4ED5ECF221DCBB2009C4D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4ED5EA4221DCBB1009C4D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4ED5EAB221DCBB1009C4D13;
+			remoteInfo = Bitemark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ED74DF21F2D44B9952DCBED /* Pods_Bitemark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitemark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4194A8E8D8B5E73DBEA035F7 /* Pods-Bitemark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitemark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bitemark/Pods-Bitemark.release.xcconfig"; sourceTree = "<group>"; };
+		97242040A2B7CF3723FD368C /* Pods-Bitemark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitemark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitemark/Pods-Bitemark.debug.xcconfig"; sourceTree = "<group>"; };
+		B47C330522206C0B009B099C /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		B47C330A2220C711009B099C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B4ED5EAC221DCBB1009C4D13 /* Bitemark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitemark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4ED5EAF221DCBB1009C4D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4ED5EB1221DCBB1009C4D13 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B4ED5EB7221DCBB1009C4D13 /* Bitemark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bitemark.xcdatamodel; sourceTree = "<group>"; };
+		B4ED5EB9221DCBB2009C4D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4ED5EBC221DCBB2009C4D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4ED5EBE221DCBB2009C4D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4ED5EC3221DCBB2009C4D13 /* BitemarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitemarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4ED5EC7221DCBB2009C4D13 /* BitemarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitemarkTests.swift; sourceTree = "<group>"; };
+		B4ED5EC9221DCBB2009C4D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4ED5ECE221DCBB2009C4D13 /* BitemarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitemarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4ED5ED2221DCBB2009C4D13 /* BitemarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitemarkUITests.swift; sourceTree = "<group>"; };
+		B4ED5ED4221DCBB2009C4D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4ED5EA9221DCBB1009C4D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377C671E653C7A49256E6F2 /* Pods_Bitemark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5EC0221DCBB2009C4D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5ECB221DCBB2009C4D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D01F88FD2384F1A6899E8E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97242040A2B7CF3723FD368C /* Pods-Bitemark.debug.xcconfig */,
+				4194A8E8D8B5E73DBEA035F7 /* Pods-Bitemark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4ED5EA3221DCBB1009C4D13 = {
+			isa = PBXGroup;
+			children = (
+				B4ED5EAE221DCBB1009C4D13 /* Bitemark */,
+				B4ED5EC6221DCBB2009C4D13 /* BitemarkTests */,
+				B4ED5ED1221DCBB2009C4D13 /* BitemarkUITests */,
+				B4ED5EAD221DCBB1009C4D13 /* Products */,
+				2D01F88FD2384F1A6899E8E4 /* Pods */,
+				DC1E34420FC9C2C663A8E299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4ED5EAD221DCBB1009C4D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED5EAC221DCBB1009C4D13 /* Bitemark.app */,
+				B4ED5EC3221DCBB2009C4D13 /* BitemarkTests.xctest */,
+				B4ED5ECE221DCBB2009C4D13 /* BitemarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4ED5EAE221DCBB1009C4D13 /* Bitemark */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED5EAF221DCBB1009C4D13 /* AppDelegate.swift */,
+				B47C330A2220C711009B099C /* AddViewController.swift */,
+				B4ED5EB1221DCBB1009C4D13 /* StartViewController.swift */,
+				B47C330522206C0B009B099C /* BookmarkTableViewController.swift */,
+				B4ED5EB9221DCBB2009C4D13 /* Assets.xcassets */,
+				B4ED5EBB221DCBB2009C4D13 /* LaunchScreen.storyboard */,
+				B4ED5EBE221DCBB2009C4D13 /* Info.plist */,
+				B4ED5EB6221DCBB1009C4D13 /* Bitemark.xcdatamodeld */,
+			);
+			path = Bitemark;
+			sourceTree = "<group>";
+		};
+		B4ED5EC6221DCBB2009C4D13 /* BitemarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED5EC7221DCBB2009C4D13 /* BitemarkTests.swift */,
+				B4ED5EC9221DCBB2009C4D13 /* Info.plist */,
+			);
+			path = BitemarkTests;
+			sourceTree = "<group>";
+		};
+		B4ED5ED1221DCBB2009C4D13 /* BitemarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED5ED2221DCBB2009C4D13 /* BitemarkUITests.swift */,
+				B4ED5ED4221DCBB2009C4D13 /* Info.plist */,
+			);
+			path = BitemarkUITests;
+			sourceTree = "<group>";
+		};
+		DC1E34420FC9C2C663A8E299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED74DF21F2D44B9952DCBED /* Pods_Bitemark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4ED5EAB221DCBB1009C4D13 /* Bitemark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4ED5ED7221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "Bitemark" */;
+			buildPhases = (
+				C08C1E21F52CE16A017B5E74 /* [CP] Check Pods Manifest.lock */,
+				B4ED5EA8221DCBB1009C4D13 /* Sources */,
+				B4ED5EA9221DCBB1009C4D13 /* Frameworks */,
+				B4ED5EAA221DCBB1009C4D13 /* Resources */,
+				8FEC6D8D61D2BAC87ADB2803 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitemark;
+			productName = Bitemark;
+			productReference = B4ED5EAC221DCBB1009C4D13 /* Bitemark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4ED5EC2221DCBB2009C4D13 /* BitemarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4ED5EDA221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "BitemarkTests" */;
+			buildPhases = (
+				B4ED5EBF221DCBB2009C4D13 /* Sources */,
+				B4ED5EC0221DCBB2009C4D13 /* Frameworks */,
+				B4ED5EC1221DCBB2009C4D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4ED5EC5221DCBB2009C4D13 /* PBXTargetDependency */,
+			);
+			name = BitemarkTests;
+			productName = BitemarkTests;
+			productReference = B4ED5EC3221DCBB2009C4D13 /* BitemarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4ED5ECD221DCBB2009C4D13 /* BitemarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4ED5EDD221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "BitemarkUITests" */;
+			buildPhases = (
+				B4ED5ECA221DCBB2009C4D13 /* Sources */,
+				B4ED5ECB221DCBB2009C4D13 /* Frameworks */,
+				B4ED5ECC221DCBB2009C4D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4ED5ED0221DCBB2009C4D13 /* PBXTargetDependency */,
+			);
+			name = BitemarkUITests;
+			productName = BitemarkUITests;
+			productReference = B4ED5ECE221DCBB2009C4D13 /* BitemarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4ED5EA4221DCBB1009C4D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lion;
+				TargetAttributes = {
+					B4ED5EAB221DCBB1009C4D13 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B4ED5EC2221DCBB2009C4D13 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B4ED5EAB221DCBB1009C4D13;
+					};
+					B4ED5ECD221DCBB2009C4D13 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B4ED5EAB221DCBB1009C4D13;
+					};
+				};
+			};
+			buildConfigurationList = B4ED5EA7221DCBB1009C4D13 /* Build configuration list for PBXProject "Bitemark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4ED5EA3221DCBB1009C4D13;
+			productRefGroup = B4ED5EAD221DCBB1009C4D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4ED5EAB221DCBB1009C4D13 /* Bitemark */,
+				B4ED5EC2221DCBB2009C4D13 /* BitemarkTests */,
+				B4ED5ECD221DCBB2009C4D13 /* BitemarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4ED5EAA221DCBB1009C4D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED5EBD221DCBB2009C4D13 /* LaunchScreen.storyboard in Resources */,
+				B4ED5EBA221DCBB2009C4D13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5EC1221DCBB2009C4D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5ECC221DCBB2009C4D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FEC6D8D61D2BAC87ADB2803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bitemark/Pods-Bitemark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickLayout/QuickLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEntryKit/SwiftEntryKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEntryKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bitemark/Pods-Bitemark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08C1E21F52CE16A017B5E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitemark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4ED5EA8221DCBB1009C4D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47C330B2220C711009B099C /* AddViewController.swift in Sources */,
+				B4ED5EB2221DCBB1009C4D13 /* StartViewController.swift in Sources */,
+				B4ED5EB0221DCBB1009C4D13 /* AppDelegate.swift in Sources */,
+				B47C330622206C0B009B099C /* BookmarkTableViewController.swift in Sources */,
+				B4ED5EB8221DCBB1009C4D13 /* Bitemark.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5EBF221DCBB2009C4D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED5EC8221DCBB2009C4D13 /* BitemarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED5ECA221DCBB2009C4D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED5ED3221DCBB2009C4D13 /* BitemarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4ED5EC5221DCBB2009C4D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4ED5EAB221DCBB1009C4D13 /* Bitemark */;
+			targetProxy = B4ED5EC4221DCBB2009C4D13 /* PBXContainerItemProxy */;
+		};
+		B4ED5ED0221DCBB2009C4D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4ED5EAB221DCBB1009C4D13 /* Bitemark */;
+			targetProxy = B4ED5ECF221DCBB2009C4D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4ED5EBB221DCBB2009C4D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4ED5EBC221DCBB2009C4D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4ED5ED5221DCBB2009C4D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4ED5ED6221DCBB2009C4D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4ED5ED8221DCBB2009C4D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97242040A2B7CF3723FD368C /* Pods-Bitemark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = Bitemark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.Bitemark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4ED5ED9221DCBB2009C4D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4194A8E8D8B5E73DBEA035F7 /* Pods-Bitemark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = Bitemark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.Bitemark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4ED5EDB221DCBB2009C4D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = BitemarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.BitemarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitemark.app/Bitemark";
+			};
+			name = Debug;
+		};
+		B4ED5EDC221DCBB2009C4D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = BitemarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.BitemarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitemark.app/Bitemark";
+			};
+			name = Release;
+		};
+		B4ED5EDE221DCBB2009C4D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = BitemarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.BitemarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitemark;
+			};
+			name = Debug;
+		};
+		B4ED5EDF221DCBB2009C4D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HPAL6F3ZR;
+				INFOPLIST_FILE = BitemarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilingual.BitemarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitemark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4ED5EA7221DCBB1009C4D13 /* Build configuration list for PBXProject "Bitemark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ED5ED5221DCBB2009C4D13 /* Debug */,
+				B4ED5ED6221DCBB2009C4D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4ED5ED7221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "Bitemark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ED5ED8221DCBB2009C4D13 /* Debug */,
+				B4ED5ED9221DCBB2009C4D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4ED5EDA221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "BitemarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ED5EDB221DCBB2009C4D13 /* Debug */,
+				B4ED5EDC221DCBB2009C4D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4ED5EDD221DCBB2009C4D13 /* Build configuration list for PBXNativeTarget "BitemarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ED5EDE221DCBB2009C4D13 /* Debug */,
+				B4ED5EDF221DCBB2009C4D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4ED5EB6221DCBB1009C4D13 /* Bitemark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4ED5EB7221DCBB1009C4D13 /* Bitemark.xcdatamodel */,
+			);
+			currentVersion = B4ED5EB7221DCBB1009C4D13 /* Bitemark.xcdatamodel */;
+			path = Bitemark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4ED5EA4221DCBB1009C4D13 /* Project object */;
+}
